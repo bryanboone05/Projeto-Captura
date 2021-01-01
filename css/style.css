@@ -28,7 +28,7 @@ section{
 }
 .formContainer{
     max-width: 230px;
-    background-color: #DAE0E1CC;
+    background-color: #DAE0E1CE;
     padding: 20px;
     float: right;
 }
@@ -56,4 +56,29 @@ select{
     -moz-appearance: none;
     background-image: url(../images/arrow.jpg);
     background-repeat: no-repeat;
-    background-position: calc(100% - 10px)  center;}
+    background-position: calc(100% - 10px)  center;
+}
+footer {
+    background-color:#202121 ;
+    padding: 40px;
+    text-align: center;
+}
+.picture{
+    width: 250px;
+    border: solid #57AB0D;
+    border-radius: 70px;
+    margin-bottom: 10px;
+}
+.description{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+.description h3{
+    font-size: 24px;
+}
