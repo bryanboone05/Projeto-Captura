@@ -3,25 +3,57 @@
     padding: 0;
 }
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
 }
-
 .container{
     max-width: 1000px;
     margin: auto;
 }
 header{
-    background-color: #48c5ce;
+    background-color: #57AB0D;
     text-align: center;
     color: white;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 .title{
     font-size: 26px;
-
 }
 section{
-    color: white;
+    padding: 20px;
+    background-image: url(../images/conference.jpg);
+    background-size: cover;
+    overflow: hidden;
 }
+.formContainer{
+    max-width: 230px;
+    background-color: #DAE0E1CC;
+    padding: 20px;
+    float: right;
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color: white;
+    background-color:#57AB0D;
+    font-weight: bold;
+}
+select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px)  center;}
